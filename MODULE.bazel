@@ -16,5 +16,5 @@ http_archive(
     urls = ["https://github.com/raysan5/raylib/archive/refs/tags/5.0.zip"],
     integrity = "sha256-cB+S8GRvvxzsXsw7vJ0n1lEaPJFjwe+KZ5sVR0zoVPU=",
     strip_prefix = "raylib-5.0",
-    build_file = "@//third_party:raylib.BUILD",
+    build_file = "@//third_party/raylib:BUILD",
 )

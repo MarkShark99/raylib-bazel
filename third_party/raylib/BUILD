@@ -11,6 +11,10 @@ filegroup(
 
 cmake(
     name = "raylib",
+    cache_entries = {
+        "CMAKE_APPLE_SILICON_PROCESSOR": "arm64",
+        "CMAKE_OSX_ARCHITECTURES": "arm64",
+    },
     lib_source = "@raylib//:all_srcs",
     out_static_libs = ["libraylib.a"],
 )

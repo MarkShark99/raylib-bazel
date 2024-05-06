@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 6,
-  "moduleFileHash": "84a1d66e942aa700bc25d52e5c8987ddfc78c34544c3dc4d2ae6948b2b930f54",
+  "moduleFileHash": "2ce16c9873f7b408b14bdf4d9b91129d9281e838f3b6712603a8ee588aa7c560",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -48,7 +48,7 @@
                 ],
                 "integrity": "sha256-cB+S8GRvvxzsXsw7vJ0n1lEaPJFjwe+KZ5sVR0zoVPU=",
                 "strip_prefix": "raylib-5.0",
-                "build_file": "@//third_party:raylib.BUILD",
+                "build_file": "@//third_party/raylib:BUILD",
                 "name": "raylib"
               },
               "devDependency": false,
